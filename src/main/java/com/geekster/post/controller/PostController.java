@@ -30,7 +30,7 @@ public class PostController {
         return post;
     }
     @GetMapping("/get-post")
-    public List<Post> getMember(){
+    public List<Post> getPost(){
         return postService.getPost();
     }
 
